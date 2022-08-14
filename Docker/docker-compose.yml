@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  mydevops:
+    build:
+      context: ./
+      dockerfile: DockerFile
+    image: mydevops:v1.0
+    container_name: mydevops
+    ports:
+      - 8081:8080
