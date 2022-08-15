@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: DockerFile
-    image: mydevops:v1.0
+    image: mydevops:v1.1
     container_name: mydevops
     ports:
       - 8081:8080

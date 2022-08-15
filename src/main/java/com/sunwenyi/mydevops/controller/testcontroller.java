@@ -9,7 +9,7 @@ public class testcontroller {
 
     @RequestMapping("/hello")
     public String test(){
-        return "Hello Jenkins!!";
+        return "Hello Jenkins!! --v1.1";
     }
 
 }
